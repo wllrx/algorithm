@@ -1,6 +1,6 @@
 package cn.wllsrx.zoe.leetcode.java;
 
-import cn.wllsrx.zoe.java.ArrayStack;
+import cn.wllsrx.zoe.java.stack.ArrayStack;
 
 import java.util.*;
 

@@ -1,9 +1,9 @@
-package cn.wllsrx.zoe.java;
+package cn.wllsrx.zoe.java.queue;
 
 /**
  * @author zoe
  **/
-public class LoopQueue2<E> implements Queue<E>{
+public class LoopQueue2<E> implements Queue<E> {
 
     private E[] data;
     private int front, tail;

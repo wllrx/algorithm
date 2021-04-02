@@ -1,4 +1,4 @@
-package cn.wllsrx.zoe.java;
+package cn.wllsrx.zoe.java.array;
 
 /**
  * 实现动态数组的数据结构
@@ -135,7 +135,7 @@ public class Array<E> {
      * @param index 索引位置
      * @return 元素
      */
-    E get(int index) {
+    public E get(int index) {
         if (index < 0 || index >= size) {
             throw new IllegalArgumentException("get failed. index is illegal");
         }

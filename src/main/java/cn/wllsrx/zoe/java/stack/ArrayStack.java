@@ -1,4 +1,6 @@
-package cn.wllsrx.zoe.java;
+package cn.wllsrx.zoe.java.stack;
+
+import cn.wllsrx.zoe.java.array.Array;
 
 /**
  * @author zoe

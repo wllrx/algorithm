@@ -1,4 +1,4 @@
-package cn.wllsrx.zoe.java;
+package cn.wllsrx.zoe.java.queue;
 
 /**
  * @author zoe
