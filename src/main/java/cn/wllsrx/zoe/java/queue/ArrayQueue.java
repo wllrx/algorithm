@@ -3,6 +3,8 @@ package cn.wllsrx.zoe.java.queue;
 import cn.wllsrx.zoe.java.array.Array;
 
 /**
+ * 数组队列
+ *
  * @author zoe
  **/
 public class ArrayQueue<E> implements Queue<E> {

@@ -3,6 +3,8 @@ package cn.wllsrx.zoe.java.stack;
 import cn.wllsrx.zoe.java.array.Array;
 
 /**
+ * 使用数组实现栈
+ *
  * @author zoe
  **/
 public class ArrayStack<E> implements Stack<E> {

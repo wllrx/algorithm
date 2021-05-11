@@ -7,7 +7,7 @@ import java.util.*;
 /**
  * 有效的括号
  * <p>
- * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
+ * 给定一个只包括 '('，')'，'{'，'}'，'['，']'的字符串 s ，判断字符串是否有效。
  * <p>
  * 有效字符串需满足：
  * <p>
@@ -71,12 +71,12 @@ public class Solution {
         if (n % 2 == 1) {
             return false;
         }
-        Map<Character, Character> pairs = new HashMap<Character, Character>() {{
+        Map<Character, Character> pairs = new HashMap<Character, Character>(16) {{
             put(')', '(');
             put(']', '[');
             put('}', '{');
         }};
-        Deque<Character> stack = new LinkedList<Character>();
+        Deque<Character> stack = new LinkedList<>();
         for (int i = 0; i < n; i++) {
             char ch = s.charAt(i);
             //当元素是右括号时,删除栈顶元素使用返回的被删除的栈顶元素判断是否等于当前key元素的value值,不等直接返回false
@@ -93,7 +93,7 @@ public class Solution {
         return stack.isEmpty();
     }
 
-    public static boolean isValid3(String s){
+    public static boolean isValid3(String s) {
         ArrayStack<Character> stack = new ArrayStack<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);

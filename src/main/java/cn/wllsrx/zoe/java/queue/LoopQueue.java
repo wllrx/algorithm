@@ -1,6 +1,8 @@
 package cn.wllsrx.zoe.java.queue;
 
 /**
+ * 循环队列
+ *
  * @author zoe
  **/
 public class LoopQueue<E> implements Queue<E> {
